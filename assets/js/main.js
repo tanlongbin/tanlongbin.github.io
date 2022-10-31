@@ -431,7 +431,7 @@
 						$modal.trigger('click');
 
 			})
-			.prepend('<div class="modal" tabIndex="-1"><div class="inner"><video width="320" class="video" autoplay controls muted></div></div>')
+			.prepend('<div class="modal" tabIndex="-1"><div class="inner"><video width="320" class="video" autoplay controls muted preload></div></div>')
 				.find('video')
 					.on('loadeddata', function(event) {
 
